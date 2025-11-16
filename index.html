@@ -11,25 +11,6 @@
 
     <body>
       <div id="root"></div>
-      <!-- debug banner to help diagnose runtime errors on Pages -->
-      <div id="debug-banner" style="position:fixed;top:0;left:0;z-index:9999;background:yellow;color:black;padding:6px;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">DEBUG: loading...</div>
-      <script>
-        // surface runtime errors on-page and in console
-        window.addEventListener('error', function (e) {
-          const b = document.getElementById('debug-banner');
-          if (b) b.textContent = 'ERROR: ' + (e && e.message ? e.message : 'unknown');
-          console.error('Captured error:', e.error || e.message || e);
-        });
-        window.addEventListener('unhandledrejection', function (e) {
-          const b = document.getElementById('debug-banner');
-          if (b) b.textContent = 'Unhandled rejection: ' + (e && e.reason ? e.reason : 'unknown');
-          console.error('Unhandled rejection:', e);
-        });
-        window.addEventListener('DOMContentLoaded', function(){
-          const b = document.getElementById('debug-banner');
-          if (b) b.textContent = 'DEBUG: DOM loaded';
-        });
-      </script>
     </body>
   </html>
   
