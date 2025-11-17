@@ -32,7 +32,7 @@ export function About() {
         >
           <h2 className="mb-4">About Me</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-            I'm a Web and UX developer focused on crafting vivid, user-centric digital experiences. My expertise spans front-end and back-end technologies, ensuring dynamic and responsive designs.
+            Web Developer with expertise in front-end and back-end development, responsive design, SEO optimization, and full project lifecycle management. Proficient in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. Adept at creating dynamic, user-friendly websites and applications.
             </p>
         </motion.div>
 
