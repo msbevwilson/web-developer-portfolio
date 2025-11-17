@@ -23,14 +23,13 @@ export function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="mb-4">
-              Hi, I'm <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Alex Rivera</span>
+              <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">Bev Wilson</span>
             </h1>
             <h2 className="mb-6 text-muted-foreground">
-              Full Stack Developer & UI/UX Enthusiast
+              Web & UX Developer
             </h2>
             <p className="mb-8 text-muted-foreground max-w-2xl mx-auto">
-              I build exceptional digital experiences that combine beautiful design with powerful functionality. 
-              Specializing in React, TypeScript, and modern web technologies to bring ideas to life.
+              I build polished web experiences that blend thoughtful design with dependable engineering, focusing on React, TypeScript, and other modern web tooling to bring ideas to life.
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center mb-12">

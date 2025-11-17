@@ -31,12 +31,9 @@ export function About() {
           className="text-center mb-16"
         >
           <h2 className="mb-4">About Me</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            I'm a passionate full-stack developer with 6+ years of experience crafting scalable web applications. 
-            My journey started with a curiosity for how things work on the web, and evolved into a career dedicated 
-            to building products that solve real problems. I thrive in collaborative environments where I can merge 
-            technical expertise with creative problem-solving.
-          </p>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+            I'm a Web and UX developer focused on crafting vivid, user-centric digital experiences. My expertise spans front-end and back-end technologies, ensuring dynamic and responsive designs.
+            </p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

@@ -15,7 +15,7 @@ export default function App() {
       <Projects />
       <Contact />
       <footer className="py-8 text-center border-t">
-        <p className="text-muted-foreground">© 2025 Alex Rivera. All rights reserved.</p>
+        <p className="text-muted-foreground">© 2025 Bev Wilson. All rights reserved.</p>
       </footer>
     </div>
   );
